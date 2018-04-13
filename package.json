@@ -1,0 +1,30 @@
+{
+  "name": "ons-designsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisCaeyers/ons-designsystem.git"
+  },
+  "author": "Denis Caeyers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisCaeyers/ons-designsystem/issues"
+  },
+  "homepage": "https://github.com/DenisCaeyers/ons-designsystem#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-nunjucks": "^3.1.1",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "nunjucks": "^3.0.1"
+  }
+}
