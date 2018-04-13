@@ -1,0 +1,102 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+        <title>Groep Ons - Design System</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+<link href="vendor/bootstrap4/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="" id="orgCss">
+
+
+        <link rel="stylesheet" href="">
+    
+    </head>
+    
+    <body id="body">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Groep Ons - Design System</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnav" aria-controls="topnav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="topnav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Atoms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Molecules</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Organisms</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Templates</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+        </ul>
+        <div class="dropdown" id="cssSelector">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="cssSelectorButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Change Organisation
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" rel="css/lko.css">Landelijke Kinderopvang</a>
+                <a class="dropdown-item" href="#" rel="css/kvlv.css">KVLV</a>
+                <a class="dropdown-item" href="#" rel="css/puuur.css">Puuur</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+        <div class="main">
+            <div class="container">
+
+            <header>
+    <div class="row">
+        <div class="col-12">
+            <h1>Header</h1>
+        </div>
+    </div>
+</header>
+
+            
+
+<h2>Page content </h2>
+
+
+
+            </div>
+        </div>
+
+        
+<script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="vendor/js-cookie/js.cookie.min.js"></script>
+
+<script src="vendor/bootstrap4/js/bootstrap.js"></script>
+
+<script>
+/* CSS Style changer based on Cookie */
+if(Cookies.get("css")) {
+	$("#orgCss").attr("href",Cookies.get("css","href"));
+}
+$(document).ready(function() {
+	$("#cssSelector div a").click(function() {
+		$("orgCss").attr("href",$(this).attr('rel'));
+		Cookies.set("css",$(this).attr('rel'), {expires: 365, path: '/'});
+        location.reload();
+		return false;
+	});
+});
+</script>    
+    </body>
+    
+</html>
+
+    

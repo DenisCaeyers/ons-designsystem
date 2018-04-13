@@ -1,0 +1,32 @@
+<html>
+    
+    <head>
+        {% include 'partials/html-head-meta.html' %}
+    
+        <title>{{ title }}</title>
+
+        {% include 'partials/html-head-css.html' %}
+
+        <link rel="stylesheet" href="">
+    
+    </head>
+    
+    <body id="body">
+        {% include 'partials/page-navigation.html' %}
+        <div class="main">
+            <div class="container">
+
+            {% include 'partials/page-header.html' %}
+
+            {% block content %}
+            {% endblock %}
+
+            </div>
+        </div>
+
+        {% include 'partials/page-javascript.html' %}    
+    </body>
+    
+</html>
+
+    

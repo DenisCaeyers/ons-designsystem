@@ -1,0 +1,21 @@
+
+<script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="vendor/js-cookie/js.cookie.min.js"></script>
+
+<script src="vendor/bootstrap4/js/bootstrap.js"></script>
+
+<script>
+/* CSS Style changer based on Cookie */
+if(Cookies.get("css")) {
+	$("#orgCss").attr("href",Cookies.get("css","href"));
+}
+$(document).ready(function() {
+	$("#cssSelector div a").click(function() {
+		$("orgCss").attr("href",$(this).attr('rel'));
+		Cookies.set("css",$(this).attr('rel'), {expires: 365, path: '/'});
+        location.reload();
+		return false;
+	});
+});
+</script>
