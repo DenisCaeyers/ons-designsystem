@@ -6,14 +6,25 @@
 <script src="vendor/bootstrap4/js/bootstrap.js"></script>
 
 <script>
-/* CSS Style changer based on Cookie */
+
 if(Cookies.get("css")) {
+	// Set current CSS file to Cookie value
 	$("#orgCss").attr("href",Cookies.get("css","href"));
+	// Set title to current Cookie value
+	$("#cssSelectorButton").text(Cookies.get("longOrg"));
 }
 $(document).ready(function() {
 	$("#cssSelector div a").click(function() {
+		// Set new CSS Value
 		$("orgCss").attr("href",$(this).attr('rel'));
+		
+	
+		// Set new Cookie value
 		Cookies.set("css",$(this).attr('rel'), {expires: 365, path: '/'});
+		Cookies.set("longOrg",$(this).text(), {expires: 365, path: '/'});
+		Cookies.set("shortOrg",$(this).attr('org'), {expires: 365, path: '/'});
+
+		// Reload the current page
         location.reload();
 		return false;
 	});
