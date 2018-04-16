@@ -1,0 +1,85 @@
+.row {
+  padding-bottom: 15px; }
+
+body.lko .kvlv {
+  display: none !important; }
+
+body.lko .lt {
+  display: none !important; }
+
+body.lko .oziki {
+  display: none !important; }
+
+body.lko .puuur {
+  display: none !important; }
+
+body.kvlv .lko {
+  display: none !important; }
+
+body.kvlv .lt {
+  display: none !important; }
+
+body.kvlv .oziki {
+  display: none !important; }
+
+body.kvlv .puuur {
+  display: none !important; }
+
+body.lt .lko {
+  display: none !important; }
+
+body.lt .kvlv {
+  display: none !important; }
+
+body.lt .oziki {
+  display: none !important; }
+
+body.lt .puuur {
+  display: none !important; }
+
+body.oziki .lko {
+  display: none !important; }
+
+body.oziki .kvlv {
+  display: none !important; }
+
+body.oziki .lt {
+  display: none !important; }
+
+body.oziki .puuur {
+  display: none !important; }
+
+body.puuur .lko {
+  display: none !important; }
+
+body.puuur .kvlv {
+  display: none !important; }
+
+body.puuur .lt {
+  display: none !important; }
+
+body.puuur .oziki {
+  display: none !important; }
+
+/* ATOMS */
+/* -- Colors */
+ul.colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  ul.colors li {
+    max-width: 200px;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    margin: 1em 0.5em;
+    border: 1px solid lightgray;
+    padding: 0.5em 0.5em;
+    border-radius: 5%; }
+    ul.colors li div.color {
+      border-radius: 2%;
+      height: 50px; }
+    ul.colors li div {
+      margin-bottom: 5px; }

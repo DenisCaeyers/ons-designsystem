@@ -1,0 +1,19 @@
+.font-primary{
+    font-family: $primary-font;
+    &.bold{
+        font-weight: $primary-font-weight;
+    }
+    &.italic{
+        font-style: italic;
+    }
+}
+
+.font-secondary{
+    font-family: $secondary-font;
+    &.bold{
+        font-weight: $secondary-font-weight;
+    }
+    &.italic{
+        font-style: italic;
+    }
+}

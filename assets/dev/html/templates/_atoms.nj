@@ -1,0 +1,46 @@
+<html>
+    
+    <head>
+        {% include 'partials/app/head-meta.html' %}
+    
+        <title>{{ title }}</title>
+
+        {% include 'partials/app/head-css.html' %}
+
+        <link rel="stylesheet" href="">
+    
+    </head>
+    
+    <body id="body">
+        {% include 'partials/app/navigation.html' %}
+        <div class="main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>{{ pagetitle }}</h1>
+                    </div>
+                    <div class="col-md-8">
+                        Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input or a button.<br/>
+                        Atoms can also include more abstract elements like color palettes, fonts and even more invisible aspects of an interface like animations.
+                        Like atoms in nature they’re fairly abstract and often not terribly useful on their own. However, they’re good as a reference in the context of a pattern library as you can see all your global styles laid out at a glance.
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+
+            {% include 'partials/atoms/colors.nj' %}
+            {% include 'partials/atoms/typography.nj' %}
+
+
+            {% block content %}
+            {% endblock %}
+
+            </div>
+        </div>
+
+        {% include 'partials/app/javascript.html' %}    
+    </body>
+    
+</html>
+
+    

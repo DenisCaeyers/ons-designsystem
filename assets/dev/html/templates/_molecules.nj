@@ -1,0 +1,43 @@
+<html>
+    
+    <head>
+        {% include 'partials/app/head-meta.html' %}
+    
+        <title>{{ title }}</title>
+
+        {% include 'partials/app/head-css.html' %}
+
+        <link rel="stylesheet" href="">
+    
+    </head>
+    
+    <body id="body">
+        {% include 'partials/app/navigation.html' %}
+        <div class="main">
+            <div class="container-fluid">
+
+             <div class="row">
+                <div class="col-md-12">
+                    <h1>{{ pagetitle }}</h1>
+                </div>
+                <div class="col-md-8">
+                    Things start getting more interesting and tangible when we start combining atoms together. Molecules are groups of atoms bonded together and are the smallest fundamental units of a compound. These molecules take on their own properties and serve as the backbone of our design systems. <br/>
+                    For example, a form label, input or button aren’t too useful by themselves, but combine them together as a form and now they can actually do something together.<br/>
+                    Building up to molecules from atoms encourages a “do one thing and do it well” mentality. While molecules can be complex, as a rule of thumb they are relatively simple combinations of atoms built for reuse.
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+
+            {% block content %}
+            {% endblock %}
+
+            </div>
+        </div>
+
+        {% include 'partials/app/javascript.html' %}    
+    </body>
+    
+</html>
+
+    

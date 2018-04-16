@@ -1,0 +1,42 @@
+<html>
+    
+    <head>
+        {% include 'partials/app/head-meta.html' %}
+    
+        <title>{{ title }}</title>
+
+        {% include 'partials/app/head-css.html' %}
+
+        <link rel="stylesheet" href="">
+    
+    </head>
+    
+    <body id="body">
+        {% include 'partials/app/navigation.html' %}
+        <div class="main">
+            <div class="container-fluid">
+
+                  <div class="row">
+                <div class="col-md-12">
+                    <h1>{{ pagetitle }}</h1>
+                </div>
+                <div class="col-md-8">
+                    At the template stage, we break our chemistry analogy to get into language that makes more sense to our clients and our final output. Templates consist mostly of groups of organisms stitched together to form pages. It’s here where we start to see the design coming together and start seeing things like layout in action.<br/>
+                    Templates are very concrete and provide context to all these relatively abstract molecules and organisms.
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+
+            {% block content %}
+            {% endblock %}
+
+            </div>
+        </div>
+
+        {% include 'partials/app/javascript.html' %}    
+    </body>
+    
+</html>
+
+    

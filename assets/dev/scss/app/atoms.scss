@@ -1,0 +1,21 @@
+/* ATOMS */
+/* -- Colors */
+ul.colors{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        max-width: 200px;
+        flex: auto;
+        margin: 1em 0.5em;
+        border: 1px solid lightgray;
+        padding: 0.5em 0.5em;
+        border-radius: 5%;
+        div.color{
+            border-radius: 2%;
+            height: 50px;
+        }
+        div{
+            margin-bottom: 5px;
+        }
+    }
+}

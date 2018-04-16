@@ -12,13 +12,15 @@ if(Cookies.get("css")) {
 	$("#orgCss").attr("href",Cookies.get("css","href"));
 	// Set title to current Cookie value
 	$("#cssSelectorButton").text(Cookies.get("longOrg"));
+	// Set body class to current Cookie value
+	$("body").addClass(Cookies.get("shortOrg"));
 }
 $(document).ready(function() {
+	// Set organisation handler
 	$("#cssSelector div a").click(function() {
 		// Set new CSS Value
 		$("orgCss").attr("href",$(this).attr('rel'));
 		
-	
 		// Set new Cookie value
 		Cookies.set("css",$(this).attr('rel'), {expires: 365, path: '/'});
 		Cookies.set("longOrg",$(this).text(), {expires: 365, path: '/'});
@@ -28,5 +30,9 @@ $(document).ready(function() {
         location.reload();
 		return false;
 	});
+
+	// Set active navigation handler
+	$('li.active').removeClass('active');
+  	$('a[href*="' + location.pathname.substr(location.pathname.lastIndexOf("/") + 1, location.pathname.length) + '"]').closest('li').addClass('active'); 
 });
 </script>

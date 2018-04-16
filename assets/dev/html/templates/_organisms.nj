@@ -1,0 +1,44 @@
+<html>
+    
+    <head>
+        {% include 'partials/app/head-meta.html' %}
+    
+        <title>{{ title }}</title>
+
+        {% include 'partials/app/head-css.html' %}
+
+        <link rel="stylesheet" href="">
+    
+    </head>
+    
+    <body id="body">
+        {% include 'partials/app/navigation.html' %}
+        <div class="main">
+            <div class="container-fluid">
+
+               <div class="row">
+                <div class="col-md-12">
+                    <h1>{{ pagetitle }}</h1>
+                </div>
+                <div class="col-md-8">
+                    Molecules give us some building blocks to work with, and we can now combine them together to form organisms. Organisms are groups of molecules joined together to form a relatively complex, distinct section of an interface.<br/>
+                    Organisms can consist of similar and/or different molecule types. For example, a masthead organism might consist of diverse components like a logo, primary navigation, search form, and list of social media channels. But a “product grid” organism might consist of the same molecule (possibly containing a product image, product title and price) repeated over and over again.<br />
+                    Building up from molecules to organisms encourages creating standalone, portable, reusable components.
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+
+
+            {% block content %}
+            {% endblock %}
+
+            </div>
+        </div>
+
+        {% include 'partials/app/javascript.html' %}    
+    </body>
+    
+</html>
+
+    

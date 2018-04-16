@@ -1,0 +1,6 @@
+.font-primary{
+    font-family: $primary-font;
+    &.italic{
+        font-style: italic;
+    }
+}

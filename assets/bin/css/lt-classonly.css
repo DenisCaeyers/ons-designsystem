@@ -1,0 +1,6 @@
+.font-primary {
+  font-family: "Arial"; }
+  .font-primary.bold {
+    font-weight: 700; }
+  .font-primary.italic {
+    font-style: italic; }
