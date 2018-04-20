@@ -1,0 +1,14 @@
+<section id="cta">
+    <div class="row">
+        <div class="col-md-12">
+            <a class="collapse-link" data-toggle="collapse" href="#ctaPanel" role="button" aria-expanded="false" aria-controls="colorsPanel"><h3>Call to actions</h3></a>
+        </div>
+        <div class="col-md-12 collapse show" id="ctaPanel">
+            <button class="cta-1">I'm a call to action</button>
+            <button class="cta-1-inverted">I'm an inverted call to action</button>
+            <br/>
+            <button class="cta-1"><i class="fas fa-search"></i>I'm a button with an icon</button>
+            <button class="cta-1-inverted"><i class="fas fa-search"></i>I'm an inverted button with an icon</button>
+        </div>
+    </div>
+</section>

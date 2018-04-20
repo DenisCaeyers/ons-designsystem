@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i");
+/* ATOMS */
+/* MOLECULES */
 .font-primary {
   font-family: "Open Sans Condensed"; }
   .font-primary.bold {
@@ -14,10 +16,10 @@
   .font-secondary.italic {
     font-style: italic; }
 
-.color-primary-1 {
+.color-primary-1, .cta-1-inverted {
   color: #D95499; }
 
-.color-bg-primary-1 {
+.color-bg-primary-1, .cta-1, button {
   background-color: #D95499; }
 
 .color-primary-2 {
@@ -44,17 +46,23 @@
 .color-bg-secondary-3 {
   background-color: #FFF5FA; }
 
-.color-neutral-1 {
-  color: #6a6a6a; }
+.color-neutral-1, .cta-1, button {
+  color: white; }
 
 .color-bg-neutral-1 {
-  background-color: #6a6a6a; }
+  background-color: white; }
 
 .color-neutral-2 {
-  color: #2c2c2c; }
+  color: #6a6a6a; }
 
 .color-bg-neutral-2 {
-  background-color: #2c2c2c; }
+  background-color: #6a6a6a; }
+
+.color-neutral-3 {
+  color: #6a6a6a; }
+
+.color-bg-neutral-3 {
+  background-color: #6a6a6a; }
 
 .h1, h1 {
   font-family: "Source Sans Pro";
@@ -87,3 +95,31 @@
   font-family: "Source Sans Pro";
   font-size: 16px;
   font-weight: bold; }
+
+.button, .cta-1, button, .cta-1-inverted {
+  font-family: "Open Sans Condensed";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px;
+  border-radius: 6px;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  margin: 10px; }
+  .button:hover, .cta-1:hover, button:hover, .cta-1-inverted:hover {
+    background-color: gray; }
+  .button i, .cta-1 i, button i, .cta-1-inverted i {
+    margin-right: 10px; }
+
+.cta-1:hover, button:hover {
+  background-color: #b82973; }
+
+.cta-1-inverted {
+  border: 1px solid #D95499;
+  background-color: transparent; }
+  .cta-1-inverted:hover {
+    background-color: #b82973;
+    color: white;
+    border: 1px solid #b82973; }

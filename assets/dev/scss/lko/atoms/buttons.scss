@@ -1,0 +1,18 @@
+.button{
+    font-family: $primary-cta-font;
+    font-size: $primary-cta-font-size;
+    font-weight: $primary-cta-font-weight;
+    text-transform: $primary-cta-font-transform;
+    padding: $primary-cta-spacing-top $primary-cta-spacing-right $primary-cta-spacing-bottom $primary-cta-spacing-left;
+    border-radius: $primary-cta-border-radius;
+    border: none;
+    -webkit-transition-duration: $primary-cta-transition-duration; /* Safari */
+    transition-duration: $primary-cta-transition-duration;
+    margin: $primary-cta-margin;
+    &:hover{
+        background-color: gray;
+    }
+    i{
+        margin-right: 10px;
+    }
+}

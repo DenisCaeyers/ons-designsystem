@@ -1,0 +1,20 @@
+.cta-1{
+    @extend .button;
+    @extend .color-bg-primary-1;
+    @extend .color-neutral-1;
+    &:hover{
+        background-color: darken($primary-color-1, 15%);
+    }
+}
+
+.cta-1-inverted{
+    @extend .button;
+    @extend .color-primary-1;
+    border: 1px solid $primary-color-1;
+    background-color: transparent;
+    &:hover{
+        background-color: darken($primary-color-1, 15%);
+        color:$neutral-color-1;
+        border: 1px solid darken($primary-color-1, 15%);
+    }
+}

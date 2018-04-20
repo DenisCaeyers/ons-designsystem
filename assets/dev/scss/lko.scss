@@ -1,7 +1,10 @@
 @import "lko/variables.scss";
-@import "lko/fonts.scss";
-@import "lko/colors.scss";
-@import "lko/headings.scss";
-@import "lko/buttons.scss";
+
+@import "lko/atoms/fonts.scss";
+@import "lko/atoms/colors.scss";
+@import "lko/atoms/headings.scss";
+@import "lko/atoms/buttons.scss";
+
+@import "lko/molecules/cta.scss";
 
 @import "lko/html-implementation.scss";

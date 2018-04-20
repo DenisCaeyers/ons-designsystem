@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 
 
+/* ATOMS */
 // Primary colors
 $primary-color-1: #D95499;
 $primary-color-2: #579881;
@@ -13,8 +14,9 @@ $secondary-color-2: #89c6ad;
 $secondary-color-3: #FFF5FA;
 
 // Neutral colors
-$neutral-color-1: #6a6a6a;
-$neutral-color-2: #2c2c2c;
+$neutral-color-1: white;
+$neutral-color-2: #6a6a6a;
+$neutral-color-3: #2c2c2c;
 
 // Fonts
 $primary-font: "Open Sans Condensed";
@@ -47,3 +49,18 @@ $header-5-font-size: 16px;
 $header-6-font: $secondary-font;
 $header-6-font-weight: bold;
 $header-6-font-size: 16px;
+
+// Buttons
+$primary-cta-font: $primary-font;
+$primary-cta-font-weight: bold;
+$primary-cta-font-size: 16px;
+$primary-cta-font-transform: uppercase;
+$primary-cta-spacing-top: 10px;
+$primary-cta-spacing-bottom: 10px;
+$primary-cta-spacing-left: 30px;
+$primary-cta-spacing-right: 30px;
+$primary-cta-border-radius: 6px;
+$primary-cta-transition-duration: 0.4s;
+$primary-cta-margin: 10px;
+
+/* MOLECULES */
