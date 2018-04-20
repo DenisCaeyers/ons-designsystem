@@ -1,3 +1,4 @@
+// Headings
 h1{
     @extend .h1;
 }
@@ -21,6 +22,12 @@ h6{
     @extend .h6;
 }
 
+// Paragraphs
+p{
+    @extend .paragraph;
+}
+
+// Buttons
 button{
     @extend .cta-1;
 }

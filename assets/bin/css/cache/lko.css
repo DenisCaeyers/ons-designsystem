@@ -53,16 +53,22 @@
   background-color: white; }
 
 .color-neutral-2 {
-  color: #6a6a6a; }
+  color: #BEBEBE; }
 
 .color-bg-neutral-2 {
-  background-color: #6a6a6a; }
+  background-color: #BEBEBE; }
 
 .color-neutral-3 {
   color: #6a6a6a; }
 
 .color-bg-neutral-3 {
   background-color: #6a6a6a; }
+
+.color-neutral-4 {
+  color: #2c2c2c; }
+
+.color-bg-neutral-4 {
+  background-color: #2c2c2c; }
 
 .h1, h1 {
   font-family: "Source Sans Pro";
@@ -96,6 +102,19 @@
   font-size: 16px;
   font-weight: bold; }
 
+.paragraph, p {
+  font-family: "Source Sans Pro";
+  font-size: 17px;
+  line-height: 1.75;
+  font-weight: 300;
+  margin-bottom: 20px; }
+  .paragraph.lead, p.lead {
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 300;
+    margin-bottom: 20px; }
+
 .button, .cta-1, button, .cta-1-inverted {
   font-family: "Open Sans Condensed";
   font-size: 16px;
@@ -112,6 +131,16 @@
     background-color: gray; }
   .button i, .cta-1 i, button i, .cta-1-inverted i {
     margin-right: 10px; }
+
+.input-text {
+  border-radius: 6px;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #BEBEBE; }
+  font .input-text::-webkit-input-placeholder {
+    color: #BEBEBE;
+    font-style: italic; }
 
 .cta-1:hover, button:hover {
   background-color: #b82973; }

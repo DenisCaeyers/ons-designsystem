@@ -1,0 +1,14 @@
+.paragraph{
+    font-family: $p-font;
+    font-size: $p-font-size;
+    line-height: $p-font-lineheight;
+    font-weight:$p-font-weight;
+    margin-bottom:$p-margin-bottom;
+    &.lead{
+        font-family: $p-font;
+        font-size: $p-lead-font-size;
+        line-height: $p-lead-font-lineheight;
+        font-weight:$p-lead-font-weight;
+        margin-bottom:$p-lead-margin-bottom;
+    }
+}

@@ -15,8 +15,9 @@ $secondary-color-3: #FFF5FA;
 
 // Neutral colors
 $neutral-color-1: white;
-$neutral-color-2: #6a6a6a;
-$neutral-color-3: #2c2c2c;
+$neutral-color-2: #BEBEBE;
+$neutral-color-3: #6a6a6a;
+$neutral-color-4: #2c2c2c;
 
 // Fonts
 $primary-font: "Open Sans Condensed";
@@ -24,6 +25,20 @@ $primary-font-weight: 700;
 
 $secondary-font: "Source Sans Pro";
 $secondary-font-weight: 600;
+
+// Paragraphs
+$p-font: $secondary-font;
+$p-font-size: 17px;
+$p-font-lineheight: 1.75;
+$p-font-weight:300;
+$p-margin-bottom: 20px;
+
+$p-lead-font: $secondary-font;
+$p-lead-font-size: 20px;
+$p-lead-font-lineheight: 34px;
+$p-lead-font-weight:300;
+$p-lead-margin-bottom: 20px;
+
 
 // Headings
 $header-1-font: $secondary-font;
@@ -62,5 +77,19 @@ $primary-cta-spacing-right: 30px;
 $primary-cta-border-radius: 6px;
 $primary-cta-transition-duration: 0.4s;
 $primary-cta-margin: 10px;
+
+// Form elements
+$input-border-radius: 6px;
+$input-border-color:$neutral-color-2;
+$input-padding-top: 5px;
+$input-padding-left: 10px;
+$input-padding-right: 10px;
+$input-padding-bottom: 5px;
+$input-font-size: 16px;
+$input-font:$secondary-font;
+// // Placeholder
+$input-placeholder-color: $neutral-color-2;
+$input-placeholder-font: $secondary-font;
+$input-placeholder-font-style: italic;
 
 /* MOLECULES */

@@ -31,7 +31,9 @@
             {% include 'partials/atoms/colors.nj' %}
             {% include 'partials/atoms/typography.nj' %}
             {% include 'partials/atoms/headings.nj' %}
+            {% include 'partials/atoms/paragraphs.nj' %}
             {% include 'partials/atoms/buttons.nj' %}
+            {% include 'partials/atoms/form-elements.nj' %}
 
             {% block content %}
             {% endblock %}

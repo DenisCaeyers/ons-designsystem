@@ -1,0 +1,10 @@
+<section id="form-elements">
+    <div class="row">
+        <div class="col-md-12">
+            <a class="collapse-link" data-toggle="collapse" href="#elementsPanel" role="button" aria-expanded="false" aria-controls="elementsPanel"><h3>Forms elements</h3></a>
+        </div>
+        <div class="col-md-12 collapse show" id="elementsPanel">
+            <input class="input-text" type="text" placeholder="Your text goes here">
+        </div>
+    </div>
+</section>
