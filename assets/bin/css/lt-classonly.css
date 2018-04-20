@@ -4,3 +4,27 @@
     font-weight: 700; }
   .font-primary.italic {
     font-style: italic; }
+
+.color-primary-1 {
+  color: #73C3AE; }
+
+.color-bg-primary-1 {
+  background-color: #73C3AE; }
+
+.color-primary-2 {
+  color: #203A34; }
+
+.color-bg-primary-2 {
+  background-color: #203A34; }
+
+.color-primary-3 {
+  color: #ED6A6E; }
+
+.color-bg-primary-3 {
+  background-color: #ED6A6E; }
+
+.color-primary-4 {
+  color: #ECF1EF; }
+
+.color-bg-primary-4 {
+  background-color: #ECF1EF; }

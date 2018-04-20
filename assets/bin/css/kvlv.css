@@ -3,3 +3,15 @@
   font-family: "Ubuntu"; }
   .font-primary.italic {
     font-style: italic; }
+
+.color-primary-1 {
+  color: #C4D600; }
+
+.color-bg-primary-1 {
+  background-color: #C4D600; }
+
+.color-secondary-1 {
+  color: #693C5E; }
+
+.color-bg-secondary-1 {
+  background-color: #693C5E; }

@@ -13,3 +13,45 @@
     font-weight: 600; }
   .font-secondary.italic {
     font-style: italic; }
+
+.color-primary-1 {
+  color: #D95499; }
+
+.color-bg-primary-1 {
+  background-color: #D95499; }
+
+.color-primary-2 {
+  color: #579881; }
+
+.color-bg-primary-2 {
+  background-color: #579881; }
+
+.color-secondary-1 {
+  color: #DBECE6; }
+
+.color-bg-secondary-1 {
+  background-color: #DBECE6; }
+
+.color-secondary-2 {
+  color: #89c6ad; }
+
+.color-bg-secondary-2 {
+  background-color: #89c6ad; }
+
+.color-secondary-3 {
+  color: #FFF5FA; }
+
+.color-bg-secondary-3 {
+  background-color: #FFF5FA; }
+
+.color-neutral-1 {
+  color: #6a6a6a; }
+
+.color-bg-neutral-1 {
+  background-color: #6a6a6a; }
+
+.color-neutral-2 {
+  color: #2c2c2c; }
+
+.color-bg-neutral-2 {
+  background-color: #2c2c2c; }
