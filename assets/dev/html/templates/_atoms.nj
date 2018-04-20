@@ -30,7 +30,7 @@
 
             {% include 'partials/atoms/colors.nj' %}
             {% include 'partials/atoms/typography.nj' %}
-
+            {% include 'partials/atoms/headings.nj' %}
 
             {% block content %}
             {% endblock %}

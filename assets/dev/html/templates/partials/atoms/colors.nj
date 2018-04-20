@@ -1,9 +1,9 @@
 <section id="colors">
     <div class="row">
         <div class="col-md-12">
-            <h3>Colors</h3>
+            <a class="collapse-link" data-toggle="collapse" href="#colorsPanel" role="button" aria-expanded="false" aria-controls="colorsPanel"><h3>Colors</h3></a>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 collapse show" id="colorsPanel">
             {% include 'partials/atoms/lko/colors.html' %}
             {% include 'partials/atoms/kvlv/colors.html' %}
             {% include 'partials/atoms/lt/colors.html' %}

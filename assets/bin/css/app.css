@@ -1,6 +1,12 @@
 .row {
   padding-bottom: 15px; }
 
+.collapse-link {
+  color: black;
+  padding: 10px; }
+  .collapse-link:hover {
+    text-decoration: none; }
+
 body.lko .kvlv {
   display: none !important; }
 

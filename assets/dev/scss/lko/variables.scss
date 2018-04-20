@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 
+
 // Primary colors
 $primary-color-1: #D95499;
 $primary-color-2: #579881;
@@ -21,3 +22,28 @@ $primary-font-weight: 700;
 
 $secondary-font: "Source Sans Pro";
 $secondary-font-weight: 600;
+
+// Headings
+$header-1-font: $secondary-font;
+$header-1-font-weight: normal;
+$header-1-font-size: 35px;
+
+$header-2-font: $primary-font;
+$header-2-font-weight: 300;
+$header-2-font-size: 25px;
+
+$header-3-font: $primary-font;
+$header-3-font-weight: 300;
+$header-3-font-size: 22px;
+
+$header-4-font: $secondary-font;
+$header-4-font-weight: bold;
+$header-4-font-size: 18px;
+
+$header-5-font: $secondary-font;
+$header-5-font-weight: bold;
+$header-5-font-size: 16px;
+
+$header-6-font: $secondary-font;
+$header-6-font-weight: bold;
+$header-6-font-size: 16px;

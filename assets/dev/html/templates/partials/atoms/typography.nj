@@ -1,9 +1,9 @@
 <section id="typography">
     <div class="row">
         <div class="col-md-12">
-            <h3>Typography</h3>
+            <a class="collapse-link" data-toggle="collapse" href="#typoPanel" role="button" aria-expanded="false" aria-controls="typoPanel"><h3>Typography</h3></a>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 collapse show" id="typoPanel">
             {% include 'partials/atoms/lko/typography.html' %}
             {% include 'partials/atoms/kvlv/typography.html' %}
             {% include 'partials/atoms/lt/typography.html' %}
